@@ -1,0 +1,41 @@
+body {
+  background-color: #030303;
+}
+.container{
+  width: 85vw;
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+textarea{
+  width: 41vw;
+  height: 560px;
+  padding: 11px 22px;
+  box-sizing: border-box;
+  border: 2px solid rgb(9, 219, 61);
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 20px;
+  color: aliceblue;
+}
+.output-text{
+  padding: 5px;
+  text-indent: 15px;
+  width: 38vw;
+  height: 550px;
+  background-color:transparent;
+  border: 2px solid rgb(236, 29, 29);
+  word-wrap: break-word;
+  color: aliceblue;
+  font-size: 22px;
+  border-radius: 4px;
+}
+textarea::selection{
+  border: 2.9px dashed black;
+}
+
+h3{
+  color: aquamarine;
+}
